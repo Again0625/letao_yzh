@@ -71,7 +71,7 @@ $(function () {
             data: $('#form').serialize(),
             dataType: "json",
             success: function (info) {
-                console.log(info);
+                // console.log(info);
                 if (info.success) {
                     //成功跳转到首页
                     location.href = 'index.html'
